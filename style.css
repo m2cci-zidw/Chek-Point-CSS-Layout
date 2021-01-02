@@ -1,0 +1,459 @@
+*{
+    
+    font-family: 'Roboto', Arial, sans-serif;
+    align-items: center;
+   
+    
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: hsla(0,0%,100%,.98);
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    
+    margin-bottom: 100px;
+
+}
+
+.header-docplanner{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 248px;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 400;
+  
+    
+   
+}
+.logodoc{
+    width: 268px;
+    height: 33px;
+    
+}
+.navigateur{
+    display: flex;
+   
+}
+.navigateur li{
+    padding: 9px;  
+    
+}
+li a {
+    text-decoration:none;
+  
+    font-size: 15px;
+    font-weight: 400;
+    color: #ababab;
+    
+   
+
+    
+    
+  
+}
+ul li {
+    list-style: none;
+
+}
+
+li a:hover{
+    color:  rgb(0, 179, 155);
+}
+ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 220px;
+
+} 
+.nav-departement {
+  position: absolute;
+  width: 220px;
+  display: none;
+  transform: translateX(-150px);
+  padding-top: 10px; 
+  border: 1px solid rgb(51,51,51);
+  
+  
+}
+
+.nav-departement li { 
+  background: white; 
+  display: block; 
+  padding: 12px 16px;
+  width: 180px;
+}
+.nav-departement li:hover {background: rgb(246, 248, 248);}
+
+
+/* section  */
+/* premiere section  */
+.first-section{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 248px 60px 248px;
+    padding: 0 20px;
+}
+.lead-logo{
+    width:40px ;
+    height: 39px;
+}
+.first-section h1{
+    margin: 34px 0;
+    color: #00b39b ;
+    font-weight: 300px;
+    font-size: 34px;
+    font-weight: normal;
+}
+.introduction{
+    display: flex;
+}
+.introduction p{
+    margin: 12.8px 0;
+    line-height: 28px;
+    color: rgb(116,116,116);
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 10px;
+}
+
+
+/* services docplaneer   2eme section */
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 60px 284px 40px 284px; 
+    /* padding: 0 20px; */
+  
+    color: rgb(255,255,255); 
+
+}
+
+.patients{
+    background-color:rgb(0, 204, 177);
+    /* transition-delay: 0s;
+    transition-duration: 0.35s;
+    transition-property: all;
+    transition-timing-function: ease;   */
+    }
+.doctors{
+        background-color: rgb(61, 131, 223);
+        
+
+       
+    }
+.clinics{
+    background-color: rgb(27, 39, 52);
+   
+
+     }
+.patients, .doctors, .clinics{
+    
+    padding: 32px 32px 0 32px;
+    margin: 10px ;
+    height: 345px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.titre-box{
+    font-size: 26px;
+    margin: 7.8px 0;
+    font-weight: 400; 
+   
+}
+
+
+.paragraphe-box {
+    font-size: 18px;
+    font-weight: 50;
+    line-height: 28.8px;
+    
+} 
+.style-selector{
+    margin-top: 100px;
+    background-color: transparent;
+    border: none;
+}
+.selector-morethan20{
+    margin-top: 30px;
+}
+.style-selector select{
+    
+     
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+/* section3  we are a global.. */
+.section3{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 284px 50px ;
+    padding: 0 20px;
+    color: rgb(116, 116, 116);
+    font-size: 16px;
+    font-weight: 400;
+    justify-content:space-evenly;
+    
+}
+.brands__logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space;
+    color: crimson;
+    
+    
+    
+   
+    
+}
+.section3 h2{
+    color:rgb(0, 179, 155) ;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 33.8px;
+    padding-right: 26px;
+    margin: 6.5px 0 9.1px 0 ;
+    width: 40%;
+   
+    
+   
+}
+.brands__logos a svg, .brands__logos a img {
+    
+    height: 22px;
+    width: auto;
+    max-width: 100%;
+    padding: 15px;
+    fill:rgba(171, 171, 171);
+    
+  
+}
+.brands__logos a svg:hover{
+    
+    fill:rgb(0, 179, 155);
+}
+ .brands__logos a img{
+
+  filter:invert(0.98) sepia(0.02) saturate(0) hue-rotate(180deg) brightness(3) contrast(0);
+}  
+
+
+.brands__logos a img:hover{
+    filter: none;
+   
+   
+} 
+
+/* section 4 the workd + 4 cartes  */
+.section4{
+    background-color: rgb(229, 250, 248);
+    padding: 10px;
+background-image: url(https://www.docplanner.com/img/logo.png);
+background-repeat: no-repeat;
+background-size: 456px 435px;
+background-position:220px 330px;
+}
+.element-section4{
+    display: flex;
+    margin: 0 284px;
+    padding: 20px 20px 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.intro-section4{
+    margin-top: 32px;
+    padding: 10px;
+    width: 400px ;
+    color: rgb(116, 116, 116);
+
+    line-height: 24px;
+}
+.intro-section4 h2 {
+    color:rgb(0, 179, 155) ;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44px;
+}
+ .cartes-section4{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width:500px ;
+    justify-content: space-between;
+
+} 
+.cartes-section4 div{
+    height: 250px;
+    width: 200px;
+    
+    padding:   15px;
+    background-color: rgb(255,255,255);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 5px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:rgba(0, 0, 0, 0.05) 0px 1px 4px 0px;
+}
+.cartes-section4 h3{
+    color: rgb(0, 179, 155);
+    font-size: 24px;
+    margin: 12px 0;
+    font-weight: 300;
+    line-height: 32px;
+}
+.cartes-section4 p{
+    color: rgb(116,116,116);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.cartes-1, .cartes-3{
+    transform: translateY(30px);
+
+}
+
+
+/* section5 improve the live of millions + photos */
+ .section5{
+    margin: 88px 284px 80px;
+    padding: 0 20px;
+}
+.intro-section5{
+    text-align: center;
+    margin: 0 257px 67px;
+    color: rgb(116, 116, 116);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    
+} 
+.intro-section5 h2{
+    color: rgb(0, 179, 155);
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    font-weight: normal;
+    
+}
+.offices__slider{
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.office {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    
+    margin: 10px;
+    width: 280px;
+    border: 1px solid rgb(238, 242, 242);
+    border-radius: 10px;
+    
+}
+.office__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 280px;
+    text-decoration: none;
+    
+}
+.office__image img{
+    width: 280px;
+
+}
+.office__desc{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(116, 116, 116);
+    font-size: 18px;
+    width: 280px;
+    
+}
+.office__desc span{
+    background-color: rgb(61, 131, 223);
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+/* section6  */
+.join-us{
+    margin: 80px 257px;
+    
+    text-align: center;
+    color: rgb(51,51,51);
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: normal;
+    font-weight: 300;
+
+}
+.join-us h2{
+    color: rgb(51,51,51);
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: normal;
+
+}
+.btn{
+    color: rgb(255,255,255);
+    background-color: rgb(61, 131, 223);
+    text-decoration: none;
+    padding: 14px 18px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 4px;}
+
+/* footer     */
+footer{
+    padding: 16px 0;
+    border-top: 1px solid rgb(238, 242, 242);
+}
+.footerdocplanner{
+    margin: 0 284px;
+    padding:0 20px;
+    font-size: 12px;
+    color: rgb(171, 171, 171);
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: center;
+    
+
+}
+.footerdocplanner a{
+    text-decoration: none;
+    color: rgb(61, 131, 223);
+ }
+
+.footerdocplanner p{
+    margin: 19.2px 0 4.8px 0
+ }
